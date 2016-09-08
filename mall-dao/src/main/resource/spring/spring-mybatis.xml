@@ -21,13 +21,13 @@
 			<value>com.mysql.jdbc.Driver</value>
 		</property>
 		<property name="url">
-			<value>jdbc:mysql://10.248.25.29:3306/lube_dev?connectTimeout=1000&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;socketTimeout=12000</value>
+			<value>jdbc:mysql://10.238.105.199:3306/mall_uat?connectTimeout=1000&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;socketTimeout=12000</value>
 		</property>
 		<property name="username">
-			<value>lube_dev</value>
+			<value>mall_uat</value>
 		</property>
 		<property name="password">
-			<value>SPQ2mDs5ip2qeZnw9rcY4Omr7yTxaK+X/qPh1P+rDBgA12VKIO4HA8J1kyNL1G2aRQ4LIUyQp2Iqq6MJ372x/A==</value>
+			<value>qwer1234</value>
 		</property>
 		<!-- 连接池最大使用连接数 -->
 		<property name="maxActive">
@@ -68,7 +68,7 @@
 		<property name="testOnBorrow" value="false" />
 		<property name="testOnReturn" value="false" />
 	      <property name="filters" value="config" />
-	      <property name="connectionProperties" value="config.decrypt=true" />
+	      <!-- <property name="connectionProperties" value="config.decrypt=true" /> -->
 	</bean>
 
 	<!-- mybatis文件配置，扫描所有mapper文件 -->
